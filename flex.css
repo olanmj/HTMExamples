@@ -1,0 +1,38 @@
+@media screen and (min-width: 600px) {
+
+    header {
+        background-color: green;
+    }
+    
+.container {
+    display: flex;
+    justify-content: center;
+   /* width: 500px;
+    height: 500px;
+    */
+    border: 2px solid black;}
+
+
+.container>div {
+    flex: 1;
+}
+}
+.box {
+    height: 100px;
+    text-align: center;
+    padding: 0 10px;
+    color: white;
+}
+
+#b1 { 
+    background-color: rgb(47, 47, 238);
+
+}
+#b2 { 
+    background-color: purple;
+;
+}
+#b3 { 
+    background-color: tomato;
+}
+
